@@ -1,15 +1,17 @@
 body {
   background-color: black;
+  color: white;
   font-family: Arial, sans-serif;
 }
 
+/* header section */
 .header {
   text-align: center;
-  color: white;
+  padding-bottom: 20px;
 }
 
 .header h1 {
-  font-size: 50px;
+  font-size: 37px;
 }
 
 .btn-nav {
@@ -27,4 +29,80 @@ body {
 
 .btn-nav:after {
   color: lightgray;
+}
+
+/* projects section */
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.project {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 25px;
+}
+
+.project img {
+  width: 256px;
+  margin-right: 10px;
+}
+
+.project img:hover {
+  width: 384px;
+}
+
+.project h3 {
+  text-transform: uppercase;
+  display: inline;
+  padding-right: 10px;
+  border-right: 2px solid white;
+}
+
+.project p {
+  display: inline;
+  margin: 0 5px 0 10px;
+}
+
+.text-content {
+  margin: 20px 5px;
+}
+
+.project.my-times img {
+  height: 306.8px;
+}
+
+.project.my-times img:hover {
+  height: 460.2px;
+}
+
+.project.broadway img {
+  height: 261.2px;
+}
+
+.project.broadway img:hover {
+  height: 391.8px;
+}
+
+.project.excursion img {
+  height: 387.8px;
+}
+
+.project.excursion img:hover {
+  height: 581.7px;
+}
+
+.project.dasmoto img {
+  height: 303.6px;
+}
+
+.project.dasmoto img:hover {
+  height: 455.4px;
 }
