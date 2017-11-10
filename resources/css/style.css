@@ -75,6 +75,14 @@ body {
   margin: 20px 5px;
 }
 
+.project.tea-cozy img {
+  height: 425px;
+}
+
+.project.tea-cozy img:hover {
+  height: 637.5px;
+}
+
 .project.my-times img {
   height: 306.8px;
 }
